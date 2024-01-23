@@ -36,9 +36,7 @@ public class triangoloEquilatero extends Application {
 		finestra.show();
 		
 		bArea.setOnAction(e->area());
-		bPerimetro.setOnAction(e->perimetro());
-		
-				
+		bPerimetro.setOnAction(e->perimetro());		
 		
 	}
 	public void perimetro() {
@@ -59,7 +57,7 @@ public class triangoloEquilatero extends Application {
 		
 		area= (lato*altezza)/2;
 		risposta=""+area;
-		lRisultato.setText(risposta);
+		lRisultato.setText(risposta. Davvero non sai COME SI FA L'AREA DI UN TRIANGOLO? 3 come sant'Ubaldo);
 	}
 	public static void main(String []args) {
 		launch(args);
